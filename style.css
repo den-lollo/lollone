@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(204, 204, 248);
+}
+
+#index{
+    color: rgb(67, 24, 168);
+    margin-top: 175px;
+    text-shadow: 3px 3px 3px rgb(137, 142, 146);
+    font-size: 57px;
+    font-family: 'Calibri';
+}
+
+#lollone{
+    color: rgb(67, 24, 168);
+    margin-top: 175px;
+    text-shadow: 3px 3px 3px rgb(137, 142, 146);
+    font-size: 57px;
+    font-family: 'Calibri';
+}
+
+#contenitore{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons{
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+    font-family: 'Calibri';
+    font-size: 25px;
+    text-align: center;
+    color: rgb(47, 47, 192)     ;
+}
+.btn{
+    padding: 15px 22px;
+    margin: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(131, 173, 236, 0.644);
+    color: rgb(41, 9, 158);
+    font-family: 'Calibri';
+    
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 5px rgba(161, 142, 212, 0.842);
+    transition: all .3s;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+.btn:active{
+    background-color: aquamarine;
+    box-shadow: 0 2px green;
+    transform: translateY(4px);
+}
